@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "LGTM",
   "description": "Copy animated GIF URL with markdown.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "16": "images/icon16.png",
     "48": "images/icon48.png",
