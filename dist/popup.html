@@ -7,6 +7,13 @@
       body {
         margin: 0;
         width: 200px;
+        overflow-y: auto;
+      }
+      body::-webkit-scrollbar {
+        display: none;
+      }
+      img {
+        display: block;
       }
       ul {
         margin: 0;
@@ -18,7 +25,6 @@
       }
       ul li img {
         cursor: pointer;
-        vertical-align: middle;
       }
       ul li img:active {
         opacity: 0.4;
@@ -27,6 +33,7 @@
   </head>
   <body>
     <ul id="content"></ul>
+    <img src="images/giphy.gif" width="200" height="42">
     <script src="js/popup.js"></script>
   </body>
 </html>
