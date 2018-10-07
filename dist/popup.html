@@ -1,36 +1,32 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>LGTM</title>
     <style>
       body {
         margin: 0;
+        width: 200px;
       }
       ul {
         margin: 0;
         padding: 0;
-        width: 200px;
       }
       ul li {
         list-style: none;
+        background-color: #00ff99;
       }
-      img {
+      ul li img {
         cursor: pointer;
         vertical-align: middle;
       }
-      img:active {
+      ul li img:active {
         opacity: 0.4;
       }
     </style>
-    <script src="js/vendor.js"></script>
   </head>
   <body>
-    <ul>
-      <li><img></li>
-      <li><img></li>
-      <li><img></li>
-    </ul>
+    <ul id="content"></ul>
     <script src="js/popup.js"></script>
   </body>
 </html>
